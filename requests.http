@@ -1,0 +1,10 @@
+@URL = http://localhost:3000
+
+# @name Root
+GET {{URL}}/
+
+@rootResponse = {{Root.response.body.$.message}}
+
+###
+
+GET {{URL}}/{{rootResponse}}
