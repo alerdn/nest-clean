@@ -3,8 +3,6 @@
 # @name Root
 GET {{URL}}/
 
-@rootResponse = {{Root.response.body.$.message}}
+### 
 
-###
-
-GET {{URL}}/{{rootResponse}}
+GET {{URL}}/users
