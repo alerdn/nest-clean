@@ -5,4 +5,12 @@ GET {{URL}}/
 
 ### 
 
-GET {{URL}}/users
+POST {{URL}}/accounts
+Content-Type: application/json
+
+{
+    "name": "Alexandre",
+    "email": "alexandre@example.com",
+    "password": "securepassword"
+}
+
